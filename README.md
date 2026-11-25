@@ -137,13 +137,21 @@ docs/               banner, screenshots, demo
 run.bat / run.sh    one-command launchers (+ run-demo.* for a two-peer sandbox)
 ```
 
-## Known limits
+---
+
+## ⚠️ Limitations & roadmap
 
 - No encryption: traffic is plain TCP. Use it on networks you trust, or tunnel it (VPN / SSH).
 - No NAT traversal: peers must be reachable (same LAN, VPN, or a forwarded port).
 - Peer discovery is exchange-only; there is no bootstrap directory.
 - Message history lives in memory and resets when a peer stops.
 
-## License
+**Ideas for next steps:** end-to-end encryption (Noise / TLS) · NAT hole-punching · persistent chat history · resumable transfers · bootstrap peers · group rooms.
 
-MIT — see [LICENSE](LICENSE).
+---
+
+## 📄 License
+
+[MIT](LICENSE) — free to use, learn from and extend.
+
+<div align="center"><sub>Built with ❤️ using Python, Next.js and Framer Motion.</sub></div>
