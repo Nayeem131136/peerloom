@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
+<defs>
+<linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#5eead4"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<radialGradient id="a" cx=".2" cy=".1" r=".9"><stop offset="0" stop-color="#14b8a6" stop-opacity=".35"/><stop offset="1" stop-color="#070a12" stop-opacity="0"/></radialGradient>
+<radialGradient id="b" cx=".9" cy=".9" r=".8"><stop offset="0" stop-color="#7c3aed" stop-opacity=".4"/><stop offset="1" stop-color="#070a12" stop-opacity="0"/></radialGradient>
+<style>
+.t{font:700 76px 'Segoe UI',Inter,system-ui,sans-serif;letter-spacing:-2px;fill:#e8ecf6}
+.s{font:500 22px 'Segoe UI',Inter,system-ui,sans-serif;fill:#8b95ad;letter-spacing:.5px}
+.w{fill:none;stroke:url(#g);stroke-width:2.4;stroke-linecap:round;stroke-dasharray:14 12;animation:fl 2.4s linear infinite;opacity:.8}
+.w2{animation-duration:3.4s;animation-direction:reverse;opacity:.45}
+@keyframes fl{to{stroke-dashoffset:-104}}
+.n{fill:#070a12;stroke:#5eead4;stroke-width:2.5}
+.p{animation:pu 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pu{50%{transform:scale(1.5)}}
+.pk{fill:#5eead4;filter:drop-shadow(0 0 6px #5eead4)}
+</style>
+</defs>
+<rect width="1200" height="320" fill="#070a12"/><rect width="1200" height="320" fill="url(#a)"/><rect width="1200" height="320" fill="url(#b)"/>
+<path class="w" d="M0 100C150 100 150 220 300 220S450 100 600 100 750 220 900 220 1050 100 1200 100"/>
+<path class="w w2" d="M0 220C150 220 150 100 300 100S450 220 600 220 750 100 900 100 1050 220 1200 220"/>
+<g><circle class="n p" cx="300" cy="220" r="7"/><circle class="n p" cx="900" cy="220" r="7" style="animation-delay:-1s"/><circle class="n p" cx="600" cy="100" r="7" style="animation-delay:-2s"/><circle class="n p" cx="300" cy="100" r="7" style="animation-delay:-.5s"/><circle class="n p" cx="900" cy="100" r="7" style="animation-delay:-1.5s"/></g>
+<circle class="pk" r="5"><animateMotion dur="4s" repeatCount="indefinite" path="M0 100C150 100 150 220 300 220S450 100 600 100 750 220 900 220 1050 100 1200 100"/></circle>
+<circle class="pk" r="4" style="fill:#a78bfa;filter:drop-shadow(0 0 6px #a78bfa)"><animateMotion dur="5s" repeatCount="indefinite" path="M1200 220C1050 220 1050 100 900 100S750 220 600 220 450 100 300 100 150 220 0 220"/></circle>
+<rect x="330" y="86" width="540" height="148" rx="26" fill="#070a12" fill-opacity=".72"/>
+<text class="t" x="600" y="158" text-anchor="middle">Peer<tspan fill="url(#g)">loom</tspan></text>
+<text class="s" x="600" y="204" text-anchor="middle">Serverless chat and verified file sharing over plain TCP</text>
+</svg>

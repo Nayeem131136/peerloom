@@ -1,0 +1,11 @@
+node_modules/
+.next/
+__pycache__/
+*.pyc
+downloads/*
+!downloads/.gitkeep
+*.part
+*.upload
+.venv/
+venv/
+.DS_Store
